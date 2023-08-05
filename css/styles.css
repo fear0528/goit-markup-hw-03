@@ -108,6 +108,7 @@ body {
 }
 
 .btn-main {
+  min-width: 169px;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -261,6 +262,7 @@ body {
 }
 
 .section-second-h-third {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -324,6 +326,7 @@ header .container {
 }
 
 .section-first .container {
+  padding: 188px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -339,6 +342,7 @@ header .container {
 }
 
 .section-second-list-container {
+  padding: 120px 0;
   display: flex;
   gap: 24px;
 }
@@ -401,7 +405,7 @@ footer .container {
 }
 
 .h-main {
-  width: 496px;
+  max-width: 496px;
 }
 
 .card-content {
