@@ -209,6 +209,7 @@ body {
 }
 
 .button {
+  border: 1px solid #e7e9fc;
   text-align: center;
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -228,17 +229,19 @@ body {
   background-color: var(--pressed-state-color);
   color: #ffffff;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .other:focus {
   background-color: var(--pressed-state-color);
   color: #ffffff;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .buttons-section-first {
   padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-second {
@@ -439,6 +442,7 @@ footer .container {
   flex-wrap: wrap;
   margin-bottom: 72px;
   width: 1158px;
+  column-gap: 24px;
 }
 
 .portfolio-table-section-first li {
@@ -452,4 +456,8 @@ footer .container {
 
 .portfolio-second {
   margin-bottom: 8px;
+}
+
+.portfolio-section-first {
+  padding: 96px 0 120px 0;
 }
