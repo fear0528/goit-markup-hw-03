@@ -162,6 +162,7 @@ body {
 
 .section-fourth {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .section-fourth-h-second {
   margin-bottom: 72px;
@@ -372,10 +373,6 @@ header .container {
   gap: 24px;
 }
 
-.section-fourth {
-  padding-bottom: 120px;
-}
-
 .section-fourth-list-li {
   display: inline-flex;
   padding-bottom: 0px;
@@ -441,6 +438,7 @@ header .container {
   margin-bottom: 72px;
   width: 1158px;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-content {
@@ -461,4 +459,8 @@ header .container {
 .footer-span {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.portfolio-list-table {
+  width: calc((100% - 48px) / 3);
 }
