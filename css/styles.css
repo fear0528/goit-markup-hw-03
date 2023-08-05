@@ -382,7 +382,7 @@ header .container {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-footer .container {
+.footer .container {
   display: inline-block;
   padding-top: 100px;
   padding-bottom: 100px;
