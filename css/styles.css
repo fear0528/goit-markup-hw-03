@@ -218,11 +218,12 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--primary-brand-color);
-}
-.button:first-child {
+  padding: 12px 24px;
+  border-radius: 4px;
   background-color: #f4f4fd;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
-
 .other:hover {
   background-color: var(--pressed-state-color);
   color: #ffffff;
@@ -233,6 +234,11 @@ body {
   background-color: var(--pressed-state-color);
   color: #ffffff;
   cursor: pointer;
+}
+
+.buttons-section-first {
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 .portfolio-second {
@@ -418,4 +424,19 @@ footer .container {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.buttons-section-first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.portfolio-table-section-first {
+  display: flex;
+  gap: 32px;
+  width: 1158px;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
