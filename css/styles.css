@@ -67,12 +67,15 @@ body {
 }
 
 .menu-list-item {
+  display: flex;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .list {
@@ -287,6 +290,10 @@ header .container {
   align-items: center;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-list-container,
 .nav-header-container,
 .contacts-list-container {
@@ -297,8 +304,6 @@ header .container {
 
 .header-list-container {
   gap: 40px;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 .nav-header-container {
@@ -400,4 +405,17 @@ footer .container {
 
 .section-fourth-h-third {
   margin-bottom: 8px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
