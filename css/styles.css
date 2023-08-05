@@ -318,9 +318,6 @@ header .container {
   gap: 40px;
 }
 
-.nav-header-container {
-}
-
 .contacts-list-container {
   gap: 40px;
 }
@@ -333,12 +330,6 @@ header .container {
   height: 600px;
   justify-content: center;
   gap: 48px;
-}
-
-.section-first,
-.section-second,
-.section-third {
-  padding-bottom: 120px;
 }
 
 .section-second-list-container {
@@ -445,9 +436,6 @@ footer .container {
   margin-bottom: 72px;
   width: 1158px;
   column-gap: 24px;
-}
-
-.portfolio-table-section-first li {
 }
 
 .portfolio-content {
