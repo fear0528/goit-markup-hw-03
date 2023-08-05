@@ -436,7 +436,20 @@ footer .container {
 .portfolio-table-section-first {
   display: flex;
   gap: 32px;
-  width: 1158px;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
+  margin-bottom: 72px;
+  width: 1158px;
+}
+
+.portfolio-table-section-first li {
+}
+
+.portfolio-content {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+}
+
+.portfolio-second {
+  margin-bottom: 8px;
 }
