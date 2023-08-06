@@ -106,9 +106,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .btn-main {
+  display: flex;
   min-width: 169px;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -122,6 +127,8 @@ body {
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .btn-main:hover {
@@ -231,8 +238,6 @@ body {
   padding: 12px 24px;
   border-radius: 4px;
   background-color: #f4f4fd;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .other:hover {
   background-color: var(--pressed-state-color);
@@ -249,7 +254,6 @@ body {
 }
 
 .buttons-section-first {
-  padding-top: 96px;
   margin-bottom: 72px;
 }
 
@@ -333,15 +337,6 @@ header .container {
   gap: 40px;
 }
 
-.section-first .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 600px;
-  justify-content: center;
-  gap: 48px;
-}
-
 .section-second-list-container {
   display: flex;
   gap: 24px;
@@ -387,10 +382,6 @@ header .container {
 }
 
 .footer .container {
-  display: inline-block;
-  flex-direction: column;
-  gap: 16px;
-  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -433,10 +424,7 @@ header .container {
 
 .portfolio-table-section-first {
   display: flex;
-  gap: 32px;
   flex-wrap: wrap;
-  margin-bottom: 72px;
-  width: 1158px;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -455,8 +443,7 @@ header .container {
   padding: 96px 0 120px 0;
 }
 
-.footer-logo,
-.footer-span {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
